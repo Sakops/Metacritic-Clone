@@ -1,0 +1,441 @@
+/** @format */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button.active {
+  background: greenyellow;
+  color: black;
+}
+.out li {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 2rem;
+  background: #f4f5fa;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  position: relative;
+}
+.out li.active {
+  background: greenyellow;
+  text-decoration: line-through;
+}
+.out li.active i {
+  text-decoration: none;
+}
+.out i {
+  color: red;
+  font-size: 40px;
+  position: absolute;
+  z-index: 10;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.addBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.addBlock .single {
+  width: 32%;
+  margin: 1rem 0;
+}
+.addBlock .single .date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.addBlock .single .date p {
+  text-transform: uppercase;
+}
+.inpValue {
+  position: relative;
+}
+.inpValue .inp-filter:focus + .result {
+  display: block;
+}
+.inpValue .result {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid black;
+  padding: 1rem;
+  font-size: 20px;
+  background: #fff;
+}
+.inpValue .result p:first-letter {
+  text-transform: capitalize !important;
+}
+.calendar {
+  display: block;
+  justify-content: center;
+}
+.calendar form {
+  border: 1px solid #000;
+  padding: 1rem;
+}
+.calendar form select {
+  border: 1px solid #000;
+}
+.calendar table,
+.calendar tr,
+.calendar td {
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+  margin: 5rem auto;
+}
+.calendar table.disable,
+.calendar tr.disable,
+.calendar td.disable {
+  color: #cacaca;
+}
+.calendar td {
+  position: relative;
+}
+.calendar td.active {
+  color: #fff;
+  background: red;
+  border-radius: 100%;
+  font-weight: 700;
+}
+.calendar tr:nth-child(1) {
+  background: #cacaca;
+  font-weight: 700;
+}
+.calendar tr:nth-child(2) {
+  background: #f4f5fa;
+  font-weight: 700;
+}
+.ship {
+  transition: all 0.1s;
+  position: absolute;
+  z-index: 10;
+}
+.ship.left {
+  transform: rotate(-90deg);
+}
+.ship.right {
+  transform: rotate(90deg);
+}
+.ship.top {
+  transform: rotate(0deg);
+}
+.ship.bottom {
+  transform: rotate(180deg);
+}
+.bullet {
+  transform: rotate(-90deg) translate(-50%, 25%);
+  width: 5rem;
+  z-index: 0;
+}
+* {
+  transition: all 1s;
+}
+body {
+  overflow-x: hidden;
+}
+.carousel {
+  position: relative;
+  background: #fff;
+  margin-top: 5rem;
+}
+.carousel .arrow_first {
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  font-size: 6rem;
+  z-index: 10;
+  cursor: pointer;
+}
+.carousel .arrow_first i {
+  text-shadow: 2px 2px 4px #000000;
+}
+.carousel .arrow_second {
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  font-size: 6rem;
+  z-index: 10;
+  cursor: pointer;
+}
+.carousel .arrow_second i {
+  text-shadow: 2px 2px 4px #000000;
+}
+.carousel .cont {
+  width: 70%;
+  margin: auto;
+}
+.carousel .cont .inner_content {
+  width: 300%;
+}
+.carousel .cont .inner_content img {
+  border-radius: 2rem;
+}
+.carousel .cont .inner_content p {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+.carousel .left {
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  background: #fff;
+  z-index: 5;
+  left: 0;
+  top: 0;
+}
+.carousel .right {
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  background: #fff;
+  z-index: 5;
+  right: 0;
+  top: 0;
+}
+.carousel .indicator {
+  width: 12px;
+  height: 12px;
+  background: #000000cc;
+  border-radius: 100%;
+}
+.carousel .indicator.active {
+  background: #000;
+  outline: 2px solid red;
+}
+.abs {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+form {
+  width: 50%;
+}
+form input {
+  border: 1px solid gray;
+  padding: 0.5rem;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 1rem;
+}
+form select {
+  border: 1px solid gray;
+  padding: 0.5rem;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 1rem;
+}
+form textarea {
+  border: 1px solid gray;
+  padding: 0.5rem;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+.must-img {
+  width: 70px;
+  height: auto;
+}
+.calculator {
+  width: 500px;
+  border: 1px solid black;
+  margin: 10rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.calculator .clear {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.calculator .clear button {
+  width: 24%;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: yellow;
+}
+.calculator input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  text-align: center;
+  border: 1px solid black;
+}
+.calculator .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.calculator .buttons button {
+  width: 24%;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: yellow;
+}
+.calculator .buttons button.num-set {
+  background: #fff;
+}
+.headerMain {
+  background: #111;
+  padding: 20px;
+}
+.headerMain .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerMain .container .images {
+  width: 30%;
+  display: flex;
+}
+.headerMain .container .images img:nth-child(1) {
+  width: 10%;
+}
+.headerMain .container .images img:nth-child(2) {
+  width: 30%;
+}
+.headerMain .container .filter {
+  width: 50%;
+  position: relative;
+}
+.headerMain .container .filter input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  border-radius: 10px;
+}
+.headerMain .container .filter input::placeholder {
+  color: #fff;
+}
+.headerMain .container .filter input:focus + .resultFilter {
+  display: block;
+}
+.headerMain .container .filter .resultFilter {
+  position: absolute;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  display: none;
+  left: 0;
+  top: 102%;
+  width: 100%;
+}
+.headerMain .container .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.headerMain .container .links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+.headerMain .container .links a:nth-last-child(1) {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+.singleMovie {
+  display: flex;
+  margin: 2rem auto;
+  align-items: flex-start;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+}
+.singleMovie .images {
+  position: relative;
+  margin-right: 1rem;
+}
+.singleMovie .images .must-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.singleMovie .info {
+  width: 100%;
+}
+.singleMovie .info h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.singleMovie .rate {
+  font-size: 25px;
+  color: #fff;
+  background: #6c3;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.resultFilter .singleMovie {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1rem 0;
+  padding: 0;
+  border: none;
+}
+.resultFilter .singleMovie .rate {
+  margin-right: 1rem;
+}
+.space {
+  background: url("bg.gif");
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.space .ship {
+  width: 7rem;
+  position: absolute;
+}
+.mustsee_movie {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container .image {
+  height: 250px;
+}

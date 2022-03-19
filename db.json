@@ -1,0 +1,48 @@
+{
+    "movies": [{
+            "id": 1,
+            "title": "Citizen Kane",
+            "date": "September 4, 1941",
+            "desc": "Following the death of a publishing tycoon, news reporters scramble to discover the meaning of his final utterance.",
+            "rate": 90,
+            "user": 8.4,
+            "img": "https://static.metacritic.com/images/products/movies/5/1c4da52a6f2335836a21271ec4a6f6b3-98.jpg",
+            "mustsee": true,
+            "reviews": {
+                "review": "It is the epitome of filmmaking, a masterpiece for which Welles, one of the greatest practitioners of the cinematic art, will be forever remembered.",
+                "review2": "It's a visual feast, from the moody, horror-flick style opening which hovers over the gates of man-made mountain Xanadu, to the opera-house scene when we levitate hundreds of metres from Susan's awful stage debut to the workmen flinching in the rafters."
+            },
+            "video": "https://video.internetvideoarchive.net/video.mp4?cmd=6&fmt=4&customerid=654126&publishedid=1502&e=2208902400&videokbrate=1500&h=877cd776f483bf6afa23eebe746f0cfc"
+        },
+        {
+            "id": 2,
+            "title": "The Godfather",
+            "date": "March 11, 1972",
+            "desc": "Francis Ford Coppola's epic features Marlon Brando in his Oscar-winning role as the patriarch of the Corleone family. Director Coppola paints a chilling portrait of the Sicilian clan's rise and near fall from power in America, masterfully balancing the story between the Corleone's family life and the ugly crime business in which they are engaged. Based on Mario Puzo's best-selling novel and featuring career-making performances by Al Pacino, James Caan and Robert Duvall, this searing and brilliant film garnered ten Academy Award nominations, and won three including Best Picture of 1972. [Paramount Pictures]",
+            "rate": 98,
+            "user": 9.2,
+            "img": "https://static.metacritic.com/images/products/movies/3/47c2b1f35087fc23c5ce261bbc3ad9e0-98.jpg",
+            "reviews": {
+                "review": "“The Godfather” is told entirely within a closed world. That’s why we sympathize with characters who are essentially evil. The story by Mario Puzo and Francis Ford Coppola is a brilliant conjuring act, inviting us to consider the Mafia entirely on its own terms. Don Vito Corleone (Marlon Brando) emerges as a sympathetic and even admirable character; during the entire film, this lifelong professional criminal does nothing of which we can really disapprove.",
+                "review2": "Overflowing with life, rich with all the grand emotions and vital juices of existence, up to and including blood. And its deaths, like that of Hotspur in 'Henry IV, Part I,' continue to shock no matter how often we've watched them coming."
+            },
+            "mustsee": true,
+            "video": "https://video.internetvideoarchive.net/video.mp4?cmd=6&fmt=4&customerid=654126&publishedid=55477&e=2208902400&videokbrate=1500&h=0f0c538871d6e5691f7d293007d19302"
+        },
+        {
+            "id": 3,
+            "title": "Rear Window",
+            "date": "September 1, 1954",
+            "desc": "A wheelchair-bound photographer spies on his neighbours from his apartment window and becomes convinced one of them has committed murder.",
+            "rate": 100,
+            "user": 8.8,
+            "img": "https://static.metacritic.com/images/products/movies/9/0d63e9ade174d351943b09982a5022fe-98.jpg",
+            "reviews":{
+                "review": "Hitchcock is the master of creating one room set films, in which we the audience see through the mind and eyes of the main character. Jimmy Stewart excellently plays a photo journalist, bound to a wheelchair, suspecting his neighbour of murdering his wife.",
+                "review2": "In the hands of a lesser talent, this might have become a self-conscious stunt, but in Hitchcock's it has the tightly wound perfection of a flawless sonnet or sonata."
+            },
+            "mustsee": false,
+            "video": "https://video.internetvideoarchive.net/video.mp4?cmd=6&fmt=4&customerid=654126&publishedid=201&e=2208902400&videokbrate=1500&h=56e6f0b0523d5eb5345e399b1c594ba5"
+        }
+    ]
+}
