@@ -1,3 +1,4 @@
+# Project not finished. This is a clone of a the Metacritic website
 # testjq
 
 ## Project setup
